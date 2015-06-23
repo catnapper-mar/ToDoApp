@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		387E5A461B39685900A9B685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A451B39685900A9B685 /* AppDelegate.swift */; };
 		387E5A491B39685900A9B685 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A471B39685900A9B685 /* ToDoApp.xcdatamodeld */; };
 		387E5A4B1B39685900A9B685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A4A1B39685900A9B685 /* ViewController.swift */; };
 		387E5A4E1B39685900A9B685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387E5A4C1B39685900A9B685 /* Main.storyboard */; };
 		387E5A501B39685900A9B685 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387E5A4F1B39685900A9B685 /* Images.xcassets */; };
 		387E5A531B39685900A9B685 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387E5A511B39685900A9B685 /* LaunchScreen.xib */; };
 		387E5A5F1B39685900A9B685 /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A5E1B39685900A9B685 /* ToDoAppTests.swift */; };
+		387E5A681B396C2C00A9B685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A451B39685900A9B685 /* AppDelegate.swift */; };
+		387E5A691B396C2D00A9B685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E5A451B39685900A9B685 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387E5A681B396C2C00A9B685 /* AppDelegate.swift in Sources */,
 				387E5A4B1B39685900A9B685 /* ViewController.swift in Sources */,
-				387E5A461B39685900A9B685 /* AppDelegate.swift in Sources */,
 				387E5A491B39685900A9B685 /* ToDoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387E5A691B396C2D00A9B685 /* AppDelegate.swift in Sources */,
 				387E5A5F1B39685900A9B685 /* ToDoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
